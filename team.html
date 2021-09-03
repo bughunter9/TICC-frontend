@@ -1,0 +1,1643 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./favicon/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+    <!-- Goodle Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/flipcard.css">
+
+
+    <!-- fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <title>TICC | Team </title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <style>
+        .disp-flex {
+            display: flex;
+            justify-content: center;
+        }
+
+        .bg-black {
+            background-color: #000000;
+            color: white;
+        }
+
+        .pagination {
+            padding: 5px;
+        }
+
+        .tabs {
+            margin-top: 25px;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+        }
+
+        .tabs .row {
+            margin: 0;
+            padding: 10px 0;
+            display: flex;
+            /* [1] */
+            flex-wrap: nowrap;
+            /* [1] */
+            overflow-x: auto;
+            /* [2] */
+            -webkit-overflow-scrolling: touch;
+            /* [3] */
+            -ms-overflow-style: -ms-autohiding-scrollbar;
+            /* [4] */
+        }
+
+        .tabs .row::-webkit-scrollbar {
+            display: none;
+        }
+
+        .tab-col {
+            flex: 0 0 auto;
+            cursor: pointer;
+        }
+
+        .tab-col span {
+            cursor: pointer;
+            /* padding: 5px 25px; */
+        }
+
+        .tab-col.active span,
+        .tab-col span:hover {
+            background-color: #333333;
+            border-radius: 5px;
+        }
+
+        .team-sub-part {
+            display: none;
+        }
+
+        .team-sub-part.active {
+            display: block;
+        }
+
+        .card>* {
+            border-radius: 15px;
+        }
+
+        .team-nav {
+            font-size: 24px;
+        }
+
+        @media only screen and (max-width: 450px) {
+            .team-nav {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-img bg-fix" style="background-image: url(./images/aboutus.jpg);">
+        <nav class="navbar navbar-expand-lg navbar-dark f-16 fixed-top">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo_1.webp" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./dosa.html">Dosa</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./team.html">Team</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="./blog.html">Blogs</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="d-flex align-items-center justify-content-center">
+            <h1 class="banner f-120 white" style="word-spacing: normal;">
+                OUR TEAM
+            </h1>
+        </div>
+    </header>
+
+    <div class="services my-5">
+        <div class="text-center gray f-80 fw-900">COUNSELLORS</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                    <div class="card">
+                        <div class="front">
+                            <img src="img/team/sonam.jpeg" alt="">
+                            <div class="img-des">
+                                <h3>Sonam Dullat</h3>
+                                <h4>Counsellor</h4>
+                                <div class="circle bg-red float-right m-3">
+                                    <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="back-content middle">
+                                <h3><b>Sonam Dullat</b></h3>
+                                <h4>I believe healing comes after we accept ourselves and our life the way it is. There is no such thing
+                                    as an easy life, everyone has a story and fair share of struggles. What we need is more open
+                                    conversations, to share our story, so that we can free ourselves from our pain, anger and
+                                    shortcomings.
+                                </h4>
+                                <div class="sm">
+                                    <a href="https://www.instagram.com/_s._b._d/"><i class="fab fa-instagram fa-2x"></i></a>
+                                   
+                                    <a href="mailto:ticc@thapar.edu"><i class="fas fa-envelope fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                    <div class="card">
+                        <div class="front">
+                            <img src="img/team/Garima.jpg" alt="">
+                            <div class="img-des">
+                                <h3>Garima Garg</h3>
+                                <h4>Counsellor</h4>
+                                <div class="circle bg-red float-right m-3">
+                                    <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="back-content middle">
+                                <h3><b>Garima Garg</b></h3>
+                                <h4>Psychological well-being, by which I also mean emotional and behavioural competency, is something I
+                                    believe as important as our physical well-being and requires an equal amount of effort to keep it
+                                    sound. Resolving the inner conflicts by understanding one’s own self and experiencing a sense of
+                                    freedom is what psychotherapy sets its sight on.
+                                </h4>
+                                <div class="sm">
+                                    <a href="https://www.instagram.com/garima.garg_/"><i class="fab fa-instagram fa-2x"></i></a>
+                                
+                                    <a href="mailto:ticc@thapar.edu"><i class="fas fa-envelope fa-2x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center gray f-80 fw-900">LEAD AMBASSADORS</div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                    <div class="card">
+                        <div class="front">
+                            <img src="img/team/Bhavya Giridhar.jpg" alt="">
+                            <div class="img-des">
+                                <h3>Bhavya Giridhar</h3>
+                                <h4>Ex-Lead Ambassador</h4>
+                                <div class="circle bg-red float-right m-3">
+                                    <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="back-content middle">
+                                <h3><b>Bhavya Giridhar</b></h3>
+                                <h4>
+                                    TICC has always been a safe place, where I can express my feelings openly. Values 
+                                    here at TICC resonate with my personal values and belief system. I wanted to learn
+                                     more about human psychology and how to solve problems at the level of mind, that's
+                                      why, I joined TICC. Getting an opportunity to work as a Lead Ambassador under the
+                                       guidance of Dr. Sonam Dullat and Ms. Garima Garg was a cherry on the cake. It has
+                                        changed me, given me a better perspective on life and people. I will be forever grateful for this 
+                                         opportunity.
+                                </h4>
+
+                                <div class="sm">
+                                    <a href="https://www.instagram.com/bhavya.girdhar.71/"><i class="fab fa-instagram fa-2x"></i></a>
+                                    <a href="https://www.linkedin.com/in/bhavya-girdhar"><i class="fab fa-linkedin fa-2x"></i></a>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                    <div class="card">
+                        <div class="front">
+                            <img src="img/team/Shreya Jain.JPG" alt="">
+                            <div class="img-des">
+                                <h3>Shreya Jain</h3>
+                                <h4>Lead Ambassador</h4>
+                                <div class="circle bg-red float-right m-3">
+                                    <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="back-content middle">
+                                <h3><b>Shreya Jain</b></h3>
+                                <h4 style="font-size: 15px;">I like to get involved in things that require either
+                                    physical or mental effort
+                                    on my part, painting, dancing, playing some sport, grooming my pets, being a few
+                                    of them. My willingness to join and work with TICC is indicative of my
+                                    conviction in psychology as a discipline. Mental health to me is the cornerstone
+                                    of one’s happiness, contentment, motivation, vigour. An indispensable element of
+                                    life. This dimensional aspect of mental health reminds me what Albert Einstein
+                                    said- “You cannot solve a problem with the same mind that created it”
+                                </h4>
+
+                                <div class="sm">
+                                    <a href="https://www.instagram.com/spawn.of_satan._/"><i class="fab fa-instagram fa-2x"></i></a>
+                                    <a href="https://www.linkedin.com/in/shreya-jain-31827b149/"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                    <div class="card">
+                        <div class="front">
+                            <img src="img/team/akarsh.jpg" alt="">
+                            <div class="img-des">
+                                <h3>Akarsh Munshi</h3>
+                                <h4>Ex-Lead Ambassador</h4>
+                                <div class="circle bg-red float-right m-3">
+                                    <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="back-content middle">
+                                <h3><b>Akarsh Munshi</b></h3>
+                                <h4>I like capturing moments through my lens.
+                                    Being a December admission student, it’s been a rough journey here at Thapar.
+                                    Being a very stubborn individual, it was hard for me to accept that I was
+                                    mentally unwell. Because of a series of fortunate events I was pushed towards
+                                    the Counselling Cell. For me, mental health means the peace of mind. The one
+                                    quote that changed my life “Arrogance is the worst virtue an individual can
+                                    possess. It might look "cool" on the surface but deep down no one appreciates it
+                                    neither humans nor god.”
+
+                                </h4>
+
+                                <div class="sm">
+                                    <a href="https://www.instagram.com/akarshmunshi/"><i class="fab fa-instagram fa-2x"></i></a>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center gray f-80 fw-900">VICE-LEAD AMBASSADORS</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                    <div class="card">
+                        <div class="front">
+                            <img src="img/team/Harsh Kashyap.jpg" alt="">
+                            <div class="img-des">
+                                <h3>Harsh Kashyap</h3>
+                                <h4>Vice-Lead Ambassador</h4>
+                                <div class="circle bg-red float-right m-3">
+                                    <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="back-content middle">
+                                <h3><b>Harsh Kashyap</b></h3>
+                                <h4>
+                                    Been living a life that is meant for me. I love to travel and explore. I love to play cricket, dance, read books and cook. 
+                                </h4>
+
+                                <div class="sm">
+                                    <a href="https://www.instagram.com/kashyap_harsh23/"><i class="fab fa-instagram fa-2x"></i></a>
+                                    <a href="https://www.linkedin.com/in/harsh-kashyap"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                    <div class="card">
+                        <div class="front">
+                            <img src="img/latest/Tanishqa_Aggarwal.jpg" alt="">
+                            <div class="img-des">
+                                <h3>Tanishqa Aggarwal</h3>
+                                <h4>Vice-Lead Ambassador</h4>
+                                <div class="circle bg-red float-right m-3">
+                                    <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="back-content middle">
+                                <h3><b>Tanishqa Aggarwal</b></h3>
+                                <h4>I love to talk and engage in conversations, a national player in roller hockey.
+                                    I’ve always been passionate about helping people in non-pharmaceutical ways and
+                                    TICC provides me with that platform.I strongly feel that when a person gets to
+                                    express their feelings in aconsiderate environment, half of the problem solves
+                                    there. As a mental health evangelist, I fiercely believe that it's time we stop
+                                    stigmatizing and off- limiting the term 'mental health' and give it the due
+                                    importance it deserves. You are enough as you are!
+                                </h4>
+
+                                <div class="sm">
+                                    <a href="https://www.instagram.com/tanishqa_agg14/"><i class="fab fa-instagram fa-2x"></i></a>
+                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-black team-nav tabs">
+            <ul class="pagination row text-center">
+                <!-- <li class="tab-col col-md-4 col-lg-4 col-8"><span class="pagination-links">Department Heads</span>
+                </li> -->
+                <li class="tab-col col-md-3 col-lg-3 col-8"><span class="pagination-links">MA Psychology</span>
+                </li>
+                <li class="tab-col col-md-3 col-lg-3 col-8"><span class="pagination-links">Department Heads</span>
+                </li>
+                <li class="tab-col col-md-3 col-lg-3 col-8"><span class="pagination-links">Senior Core Team</span>
+                </li>
+                <li class="tab-col col-md-3 col-lg-3 col-8"><span class="pagination-links">Ambassadors</span>
+                </li>
+                <!-- <li class="tab-col col-md-3 col-lg-3 col-8"><span class="pagination-links">Ambassadors</span>
+                </li> -->
+            </ul>
+        </div>
+        <!-- MA Psychology -->
+        <div class="team-sub-part">
+            <div class="text-center gray f-80 fw-900">MA Psychology</div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/team/Apoorva.JPG" alt="">
+                                <div class="img-des">
+                                    <h3>Apoorva</h3>
+                                    <h4>MA Psychology</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Apoorva</b></h3>
+                                    <h4>I want to reach out to people who need help and to make them feel like there is someone who is listening and understanding. I think I'll get to help people; will learn more about mental well-being and how to deal with different situations. If I could make a change, I would make it common for people - to TALK about their mental health and as a community support those who need help. A little more kindness, a little less judgement. 
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/apoorvasharma__"><i class="fab fa-instagram fa-2x"></i></a>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Ashima_gupta.jpeg" alt="">
+                                <div class="img-des">
+                                    <h3>Ashima Gupta</h3>
+                                    <h4>MA Psychology</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Ashima Gupta</b></h3>
+                                    <h4>I am a Masters Psychology student. I joined TICC last year, my experience so far is amazing. I wanted to spread awareness regarding mental health and eradicate the stigma associated with it. In TICC, we spread awareness through our Instagram handle and let’s talk sessions.Talking about Lets talk sessions, they are like a group therapy which provides us with the safe space to vent without being judged. 
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://instagram.com/ashimagupta7?utm_medium=copy_link"><i class="fab fa-instagram fa-2x"></i></a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Himkreeti_Sharma.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Himkreeti Sharma</h3>
+                                    <h4>MA Psychology</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Himkreeti Sharma</b></h3>
+                                    <h4>From a very young age I wanted to understand people and help people out. For the sole purpose of doing my bit by making society a little more kind and safe space for people, I have joined The TICC team. If I could eradicate one thing in regards of mental health, I ould remove the stigma or the taboo attached to it. "Nayi dhoop hai khidhkiyon pe ise ane de, andhere hai kis kaam ke hein jane de", this is what I live by. 
+
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://instagram.com/himkreeti009"><i class="fab fa-instagram fa-2x"></i></a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div>
+                <div class="row"> -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Jasmeen_Kaur.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Jasmeen Kaur</h3>
+                                    <h4>MA Psychology</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Jasmeen Kaur</b></h3>
+                                    <h4>Along with writing, reading and public speaking, I am good at building
+                                        relationships. I joined TICC so that no one has to go through what I did, alone
+                                        and I am here to make sure no one does. Mental health goes beyond illness. It's
+                                        understanding your emotions and moving on.
+                                        I believe everything happens for good reason and sometimes not getting what you
+                                        want is a huge stroke of luck. I abide by this every single day, and always look
+                                        at that brighter side to every situation!
+
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/jasmeenk.13"><i class="fab fa-instagram fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Mansimran_Kaur.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Mansimran Kaur</h3>
+                                    <h4>MA Psychology</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Mansimran Kaur</b></h3>
+                                    <h4>I love to read books as I believe they give me a lot of insight into the world.
+                                        I wanted to learn more about human psychology and how to solve problems at the
+                                        level of mind, which is why I joined TICC. For me, mental health refers to
+                                        well-being of emotional thoughts and the mind. I believe that being resilient
+                                        goes a long way, which is why I keep reminding myself - “You will face many
+                                        defeats in life, but never let yourself be defeated”.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/mansimran_kaur19"><i class="fab fa-instagram fa-2x"></i></a>
+                                  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Sukhpreet Kaur.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Sukhpreet Kaur</h3>
+                                    <h4>MA Psychology</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Sukhpreet Kaur</b></h3>
+                                    <h4>Along with writing, reading and public speaking, I am good at building
+                                        relationships. I joined TICC so that no one has to go through what I did, alone
+                                        and I am here to make sure no one does. Mental health goes beyond illness. It's
+                                        understanding your emotions and moving on.
+                                        I believe everything happens for good reason and sometimes not getting what you
+                                        want is a huge stroke of luck. I abide by this every single day, and always look
+                                        at that brighter side to every situation!
+
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/Kaursukh3"><i class="fab fa-instagram fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Department Heads -->
+        <div class="team-sub-part active">
+            <div class="text-center gray f-80 fw-900">Department Heads</div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/palak_modi.jpeg" alt="">
+                                <div class="img-des">
+                                    <h3>Palak Modi</h3>
+                                    <h4>Content</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Palak Modi</b></h3>
+                                    <h4>"A little bit of empathy can change the entire world." With this belief, I became a part of TICC to be able to help someone in need. I carry the goal to eradicate the stigma that exists in our society regarding mental health and make people understand that, "It is okay to not be okay sometimes." I hope that after my tenure in the cell, I come out as a person who is more expressive and empathetic towards others. "I am healing everyday, and so will you" is what I believe in. 
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/palak_modi_27/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/palak-modi-b540ab208/"><i class="fab fa-linkedin fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Manroop_Parmar.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Manroop Parmar</h3>
+                                    <h4>Website</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Manroop Parmar</b></h3>
+                                    <h4> 
+                                        I like to help people, so the purpose behind
+                                        joining TICC was very clear. According to me good mental health is determined by
+                                        the quality of one’s thoughts and feelings. I believe mental health should be
+                                        made more accessible, and that the stigma around accessing them. should be
+                                        removed completely.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/the.manroop.parmar/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/manroop-parmar/"><i class="fab fa-linkedin fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Mansimran_Kaur.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Mansimran Kaur</h3>
+                                    <h4>R&A</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Mansimran Kaur</b></h3>
+                                    <h4>I'm Mansimran Kaur, a student of masters of psychology. I enjoy gardening and long drives. I like to interact with people and provide an ear to listen to. 
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/mansimran_kaur19/"><i class="fab fa-instagram fa-2x"></i></a>
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div>
+                <div class="row"> -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Ishita_Arora.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Ishita Arora</h3>
+                                    <h4>Design</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Ishita Arora</b></h3>
+                                    <h4>"It's not about how bad you want it, it's about how hard you are willing to work for it!" is the quote I live by. I always wanted to be a part of an initiative that somehow helps the one in need. I want to learn new things and also develop the art of keeping the mind at peace even when there's chaos on the outside. I ould like to eliminate the stigma related to people suffering from mental health issues are discriminated and seen in a negative light, instead of being helped.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/ishita.arora2001"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/ishita-arora-37867a1b3"><i class="fab fa-linkedin fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Madhav_Arora.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Madhav Arora</h3>
+                                    <h4>Design</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Madhav Arora</b></h3>
+                                    <h4>I wish to be able to help and guide all those I can towards a better version of themselves. I also want to leave a mark in the future of TICC with all the work I do, that be in my department or overall. "Hope is a good thing Red, maybe the best of things."
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/mad.aro/"><i class="fab fa-instagram fa-2x"></i></a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Sukhpreet Kaur.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Sukhpreet Kaur</h3>
+                                    <h4>Let's Talk</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Sukhpreet Kaur</b></h3>
+                                    <h4>
+                                        I believe everything happens for good reason and sometimes not getting what you
+                                        want is a huge stroke of luck. I abide by this every single day, and always look
+                                        at that brighter side to every situation!
+
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/Kaursukh3/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Senior Core Team-->
+        <div class="team-sub-part">
+            <div class="text-center gray f-80 fw-900">Senior Core Team</div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/team/Bhavya Giridhar.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Bhavya Giridhar</h3>
+                                    <h4>Senior Core Member</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Bhavya Giridhar</b></h3>
+                                    <h4 style="font-size:15px;">
+                                        TICC has always been a safe place, where I can express my feelings openly. Values here at TICC resonate with my personal values and belief system. 
+                                        I wanted to learn more about human psychology and how to solve problems at the level of mind, that's why, I joined TICC. 
+                                        Getting an opportunity to work as a Lead Ambassador under the guidance of Dr. Sonam Dullat and Ms. Garima Garg was a cherry on the cake. 
+                                        It has changed me, given me a better perspective on life and people. 
+                                        It has contributed to my personal growth in so many ways. 
+                                        I will be forever grateful for this opportunity.
+                                    </h4>
+    
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/bhavya.girdhar.71/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/bhavya-girdhar"><i class="fab fa-linkedin fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/team/Deepanshi Srivastava.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Deepanshi Srivastava</h3>
+                                    <h4>Senior Core Member</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Deepanshi Srivastava</b></h3>
+                                    <h4>Mental health is a realm of sanity and calmness of mind. I consider it as a graph that is constantly growing with its highs and lows. 
+                                        Its important because we have to live in this mind of ours, till the end, so make it a better place to live in.
+    
+                                    </h4>
+    
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/deepxanshi/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/deepanshi-srivastava-8212921a2/"><i class="fab fa-linkedin fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/team/akanshaTakkar.jpeg" alt="">
+                                <div class="img-des">
+                                    <h3>Akansha Takkar</h3>
+                                    <h4>Senior Core Member</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Akansha Takkar</b></h3>
+                                    <h4>
+                                        I love to do photography, and I like to sing too. 
+                                        The reason behind applying for TICC was clear- I liked the concept of openly talking about mental health in an atmosphere and society where people try to hide their mental illness.
+                                        According to me, mental health means state of mind wherein one doesn't feel pressurized and is able to express how they feel about various things related to them! I believe in living life to the fullest. 
+                                        Life should be lived large, doesn't matter how long it is. 
+                                    </h4>
+    
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/akanksha.takkar/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/akankshatakkar/"><i class="fab fa-linkedin fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div>
+                <div class="row"> -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/team/akarsh.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Akarsh Munshi</h3>
+                                    <h4>Senior Core Member</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Akarsh Munshi</b></h3>
+                                    <h4>I like capturing moments through my lens. Being a December admission student it's been a rough journey here at Thapar. 
+                                        Being a very stubborn individual, it was very hard for me to accept that I was mentally unwell.
+                                         Because of a series of fortunate events I was pushed towards the Counselling Cell. For me my mental health means the peace of mind. 
+                                         The one quote that changed my life is "Arrogance is the worst virtue that an individual can possess" It might look "cool" on the surface but deep down no one appreciates it, neither humans nor god 
+    
+                                    </h4>
+    
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/akarshmunshi/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/akarshmunshi/"><i class="fab fa-linkedin fa-2x"></i></a>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/team/shefali.jpeg" alt="">
+                                <div class="img-des">
+                                    <h3>Shefali Dutta</h3>
+                                    <h4>Senior Core Member</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Shefali Dutta</b></h3>
+                                    <h4>I have a keen interest in Expressive art and Handwriting Analysis. I think it
+                                        gives me a different way to perceive people. I joined TICC because I wanted to
+                                        reach out to more people who need our help; especially those who feel
+                                        inferiority complex and hesitate to get help from a professional. To me, mental
+                                        health has always been about Mind and Body being at peace. I believe that
+                                        happiness and contentment can be achieved by a communal effort, so Let’s hear
+                                        and spread happiness!
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/_shefality_"><i class="fab fa-instagram fa-2x"></i></a>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/team/Tanya Sood .jpeg" alt="">
+                                <div class="img-des">
+                                    <h3>Tanya Sood</h3>
+                                    <h4>Senior Core Member</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Tanya Sood</b></h3>
+                                    <h4>
+                                        I am a tech enthusiast and artist. I am enthusiastic and high spirited to learn new things. From my experience, I know how difficult it can be to ask for help and to get the required help. I joined TICC to help make the journey of these individuals a little easier. According to me, good mental health is when we start to understand the importance of being ourselves and embrace the relentless strength we possess. I stand by a lyric, "You could go the distance, You could run the mile, You could walk straight the hell with a smile".
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/tanyaa.sood/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/tanya-sood-757882194/"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Ambassadors -->
+        <div class="team-sub-part">
+            <div class="text-center gray f-80 fw-900">Ambassadors</div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Aadishri_Soni.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Aadishri Soni</h3>
+                                    <h4>Third Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Aadishri Soni</b></h3>
+                                    <h4>I have been quite negative in the past about things happening and I would like to be a part in spreading the awareness about mental health as i felt the same way. By being part of TIC, I want to expand my skills set and knowledge about mental health. I really want to remove the negative self talk that we all do. my favorite quote is "one day at a time "
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/addiee.07"><i class="fab fa-instagram fa-2x"></i></a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Aafreen_Singh.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Aafreen Singh</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Aafreen Singh</b></h3>
+                                    <h4>One of my main reasons for joining TICC was to help someone going through a hard time. I expect to become more empathetic and more comfortable as an individual after my tenure here.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://instagram.com/aaffff26?utm_medium=copy_link"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/aafreen-singh-b6328b1b7"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Abha_Himani.png" alt="">
+                                <div class="img-des">
+                                    <h3>Abha Himani</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Abha Himani</b></h3>
+                                    <h4>"Be kind to the unkind, they need it the most",I've been trying to live by this quote from quite some time now. The country we've been living in needs some serious attention on mental health and I'm trying to contribute towards this. My motive is to spread awareness towards mental health and to make sure that no one around me is ashamed to ask for help! 
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://instagram.com/abhahimanii/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/abha-himani-564102213"><i class="fab fa-linkedin fa-2x"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div>
+                <div class="row"> -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Akshita_Bhola.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Akshita Bhola</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Akshita Bhola</b></h3>
+                                    <h4>A passionate content writer, who aspires to write fiction books in the coming future. 
+                                    </h4>
+
+                                    <div class="sm">
+
+                                        <a href="https://www.linkedin.com/in/akshita-bhola-123054202"><i class="fab fa-linkedin fa-2x"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Akshita_Tayal.png" alt="">
+                                <div class="img-des">
+                                    <h3>Akshita Tayal</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Akshita Tayal</b></h3>
+                                    <h4>A self loving girl who loves to socialise with everyone✨ and also a girl from second year who just wants to go college 😂
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://instagram.com/akshita.tayal?utm_medium=copy_link"><i class="fab fa-instagram fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Ashutosh_Bajpai.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Ashutosh Bajpai</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Ashutosh Bajpai</b></h3>
+                                    <h4>Mental health to me is being at peace with your mind and what better 
+                                        place to learn that than TICC. I became part of this team to surround 
+                                        myself with people who openly discuss mental health and actively work 
+                                        towards betterment of it and to share the knowledge that I have 
+                                        regarding mental health with everyone. Being part of this team I 
+                                        expect to grow as a more empathetic person and improve my mental health 
+                                        along the way. One thing that I would like to remove is the stigma about 
+                                        mental issues present in the society.
+
+                                    
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/itsashutoshbajpai/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/ashutosh-bajpai-553b30209/"><i class="fab fa-linkedin fa-2x"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div>
+                <div class="row"> -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Bhavika_Malhotra.jpeg" alt="">
+                                <div class="img-des">
+                                    <h3>Bhavika Malhotra</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Bhavika Malhotra</b></h3>
+                                    <h4>I joined TICC to be a part of the change in the mindset that mental health issues are not real. My own mental health goes through ups and downs but knowing that there is a cell dedicated to help people in the downs makes me feel safe and I would like every student to feel that safety too.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/bhavikr.___"><i class="fab fa-instagram fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Bhavya_Satija.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Bhavya Satija</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Bhavya Satija</b></h3>
+                                    <h4>Mental health is not a destination but a process. Its about how you drive not where you’re going. Through TICC, I would like to spread awareness about Mental health. Mental health is something that we all need to talk about, and we need to take the stigma away from it. Let everybody know it’s OK to have a mental illness.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/bhavyayaaya"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/bhavya-satija-78a385212"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Chirag.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Chirag Arora</h3>
+                                    <h4>Third Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Chirag Arora</b></h3>
+                                    <h4>Mental Health illness is like a ship stuck in the Suez Canal and I want to act a crew member and help people to get out of that Ship. I expect to gain knowledge by choice, without burden and with mental peace. If chirag got a chirag with jinn in it, three wished would be confident, patience and happiness for all by all
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/chirag_8004/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/arorachirag155/"><i class="fab fa-linkedin fa-2x"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div>
+                <div class="row"> -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Daksh_Krishna_Khanna.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Daksh Krishna Khanna</h3>
+                                    <h4>Third Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Daksh Krishna Khanna</b></h3>
+                                    <h4>
+                                        Followed engineering as a standard path, since knew nothing else, but became one of those mental health foundation engineers, trying to do his bit through an organisation known as FaceUnface. Love to swim, read, and trek. Outdoors is life, and always ready to be friends.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/otaku_geek_natsu"><i class="fab fa-instagram fa-2x"></i></a>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Devannsh Bhatnagar.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Devannsh Bhatnagar</h3>
+                                    <h4>Third Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Devannsh Bhatnagar</b></h3>
+                                    <h4>I have many interests varying from acting, public speaking to dancing and football. I Joined TICC to make a difference , to understand people and be there for anyone and everyone who is need. Mental health for me is the way one takes life, it varies from the way you wake up in the morning to the mood with which you go to bed.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/devannshbhatnagar_"><i class="fab fa-instagram fa-2x"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Gunjeev_Singh.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Gunjeev Singh</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Gunjeev Singh</b></h3>
+                                    <h4>Hi!
+                                        I am Gunjeev, your friendly neighbourhood Spi…
+                                        Anyway, I am someone you can always reach out to, to discuss, debate and talk about any and every thing in this world!
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/gunjeevsingh"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://http://www.linkedin.com/in/gunjeevsingh"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div>
+               
+                <div class="row"> -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Pranvee_Vashisht.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Pranvee Vashisht</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Pranvee Vashisht</b></h3>
+                                    <h4>I'm a very emotional person who absolutely loves to think. Besides this, I like all things creative and enjoy analysing people and situations.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/pranveevashisht/"><i class="fab fa-instagram fa-2x"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/RAGHAV_AGGARWAL.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Raghav Aggarwal</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Raghav Aggarwal</b></h3>
+                                    <h4>My keen interest in Neuroscience and Human Psychology enticed me to join
+                                        the Counselling cell. I want to eliminate the social stigma regarding mental
+                                        health because people aren't yet open to talking about their trauma or any
+                                        other thing, they had an encounter with.
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/notraghavaggarwal"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/raghav-aggarwal-155aba179/"><i class="fab fa-linkedin fa-2x"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/MVVS_Manoj_Kumar.png" alt="">
+                                <div class="img-des">
+                                    <h3>MVVS Manoj Kumar</h3>
+                                    <h4>Second Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>MVVS Manoj Kumar</b></h3>
+                                    <h4>Perhaps you wanted to find the councilling tab it should be the first link in the home page.
+
+                                        If you are checking to see how everyone is at the society they are genuinely nice people trying their best to help to whomever comes here.
+                                        
+                                        If you ask about me, I feel I am a decent/good listener and try my best to help them who consider me worthwhile sharing their problems with, and if I can't help them, I'll always be there to listen and may be share a laugh
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/mvvsmk/"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/mwlite/in/m-v-v-s-manoj-k-454718118"><i class="fab fa-linkedin fa-2x"></i></a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- </div>
+                <div class="row"> -->
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Suparnika Gupta.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Suparnika Gupta</h3>
+                                    <h4>Third Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Suparnika Gupta</b></h3>
+                                    <h4>I believe in what has to be done , has to be done and to do that in the righteous way mental and physical well-being is must. Mental health is not something to be ashamed of or embarrassed but needs to be talked-about openly. Feel free to contact me for any help or discussion concerning mental health. We are listening!!
+                                    </h4>
+
+                                    <div class="sm">
+
+                                        <a href="https://www.linkedin.com/in/suparnika-gupta-2449a6196"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 col-12 my-5 disp-flex">
+                        <div class="card">
+                            <div class="front">
+                                <img src="img/latest/Yoshita_Dharni.jpg" alt="">
+                                <div class="img-des">
+                                    <h3>Yoshita Dharni</h3>
+                                    <h4>Third Year Ambassador</h4>
+                                    <div class="circle bg-red float-right m-3">
+                                        <i class="fas fa-angle-right fa-3x arrow-icon"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="back">
+                                <div class="back-content middle">
+                                    <h3><b>Yoshita Dharni</b></h3>
+                                    <h4>Something about the working of the mind has always fascinated me from a very young age and growing up I realised how important it is to keep our mind stable healthy and at peace and that has always drawn me for things pertaining to mental health and I’ve always been passionate about it
+                                    </h4>
+
+                                    <div class="sm">
+                                        <a href="https://www.instagram.com/_yoshita_dharni_"><i class="fab fa-instagram fa-2x"></i></a>
+                                        <a href="https://www.linkedin.com/in/yoshita-d-b434701b3"><i class="fab fa-linkedin fa-2x"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!--  Footer -->
+    <footer class="nb-footer" style="font-size: 15px;">
+        <div class="container pb-5">
+          <div class="row justify-content-center">
+            <div class="col-sm-12">
+              <div class="about">
+                <p style="font-size: 20px">
+                  Call or stop by to have an initial Consultant, We are listening!
+                </p>
+  
+                <div class="social-media" style="display: inline-block;">
+                  <ul style="display: inline-block;" >
+                    <li style="display: inline-block; margin: 10px;">
+                      <a href="mailto: ticc@thapar.edu" title=""
+                        ><i class="fas fa-envelope"></i
+                      ></a>
+                    </li>
+                    <li style="display: inline-block;">
+                      <a href="https://www.instagram.com/ticc.official/" title=""
+                        ><i class="fab fa-instagram"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div class=" col-sm-3"   ><!-- TIMIMNGS -->
+              <div class="footer-info-single">
+                <h2 class="title">Timings</h2>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="contact.html" title=""
+                      ><i class="fa fa-angle-double-right"></i> Monday-Friday
+                    </a>
+                  </li>
+                  <li>
+                    <a href="contact.html" title=""
+                      ><i class="fa fa-angle-double-right"></i> 9 AM - 5:30 PM</a
+                    >
+                  </li>
+                  <li>
+                    <a href="contact.html" title=""
+                      ><i class="fa fa-angle-double-right"></i> @ticc.official</a
+                    >
+                  </li>
+                  <li>
+                    <a href="contact.html" title=""
+                      ><i class="fa fa-angle-double-right"></i> Thapar Institute
+                      Counseling Cell</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class=" col-sm-3" ><!-- Explore-->
+              <div class="footer-info-single">
+                <h2 class="title">Explore</h2>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="contact.html" title=""
+                      ><i class="fa fa-angle-double-right"></i> Contact</a
+                    >
+                  </li>
+                  <li>
+                    <a href="contact.html" title=""
+                      ><i class="fa fa-angle-double-right"></i> Blog</a
+                    >
+                  </li>
+                  <li>
+                    <a href=contact.html" title=""
+                      ><i class="fa fa-angle-double-right"></i> What We Do</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            <div class=" col-sm-3" ><!-- We are here -->
+              <div class="footer-info-single" >
+                <h2 class="title">We are here!</h2>
+                <a href="tel:+91-8872739998" ><p><i class="material-icons" style="font-size: small ;">phone</i>  +91-8872739998</p></a>
+                <a href="tel:+91-8872739998" ><p><i class="material-icons" style="font-size: small ;">phone</i>  +91-9781700762</p></a>
+                <a href="mailto:ticc@thapar.edu" ><p><i class="material-icons" style="font-size: small ;">mail</i> ticc@thapar.edu</p></a>
+              </div>
+            </div>
+  
+            <div class=" col-sm-3" ><!-- Have a question -->
+              <div class="footer-info-single">
+                <h2 class="title">Have a Question?</h2>
+                <ul class="list-unstyled">
+                  <li style="color: #b80f0a;">
+                    <a href="contact.html" title=""
+                      ><i class="fa fa-angle-double-right"></i> Room No. 105,
+                      G-Block, Thapar Institute of Engineering and Technology,
+                      Patiala
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+  
+            
+          </div>
+        </div>
+  
+        <!-- <section class="copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p>TICC Thapar © 2021</p>
+              </div>
+              <div class="col-sm-6"></div>
+            </div>
+          </div> -->
+        </section>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
+        crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN "
+        crossorigin="anonymous "></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV "
+        crossorigin="anonymous "></script>
+
+    <script>
+        var ind = 0
+        $(".tab-col").on("click", function () {
+            ind = $(".tab-col").index(this)
+            var team_sub_part = $(".team-sub-part")
+            $(team_sub_part[ind]).addClass("active").siblings().removeClass("active")
+            $(this).addClass("active").siblings().removeClass("active")
+        })
+    </script>
+    
+    <script src="./js/owl.carousel.js"></script>
+    <script src="./js/jquery.mousewheel.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 500,
+        });
+    </script>
+
+    <script defer>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            loop: true,
+            nav: true,
+            margin: 10,
+            items: 1
+        });
+        owl.on('mousewheel', '.owl-stage', function(e) {
+            if (e.deltaY > 0) {
+                owl.trigger('next.owl');
+            } else {
+                owl.trigger('prev.owl');
+            }
+            e.preventDefault();
+        });
+    </script>
+
+    <!-- particles -->
+    <script defer src="./js/particles.min.js"></script>
+    <script defer src="./js/app.js"></script>
+
+    <!-- Counter -->
+    <script defer src="./js/main.js"></script>
+    <script defer defer src="./js/counter.js"></script>
+</body>
+
+</html>

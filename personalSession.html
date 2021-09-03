@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" href="./favicon/favicon.ico" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/form.css" />
+
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <title>TICC | Personal Counselling Session</title>
+  </head>
+
+  <body>
+    <div
+      class="page-wrapper bg-blue p-t-100 p-b-100 font-robo"
+      style="background-color: #f1f1f1; padding: 100px 0 100px 0"
+    >
+      <div class="wrapper wrapper--w680">
+        <div class="card card-1">
+          <div class="card-heading" style="padding-top: 0;">
+            <img src="./images/thapar.jpg" height="400px" width="100%"/>
+          </div>
+          <div class="card-body">
+            <h2 class="title">
+              TICC - Slot Booking - Personal Counseling Session
+            </h2>
+            <p>Timing: 9.00 am - 5.30 pm</p>
+            <p>
+              When you fill this form, consider your slot booked and confirmed.
+            </p>
+            <br />
+            <form method="POST">
+              <div class="input-group">
+                <input
+                  class="input--style-1"
+                  type="text"
+                  placeholder="Name"
+                  name="name"
+                />
+              </div>
+              <div class="input-group">
+                <input
+                  class="input--style-1"
+                  type="text"
+                  placeholder="Branch & Year of Study"
+                  name="name"
+                />
+              </div>
+              <div class="input-group">
+                <input
+                  class="input--style-1"
+                  type="text"
+                  placeholder="Roll No."
+                  name="res_code"
+                />
+              </div>
+              <div class="input-group">
+                <input
+                  class="input--style-1"
+                  type="text"
+                  placeholder="Contact No."
+                  name="res_code"
+                />
+              </div>
+              <div class="input-group">
+                <input
+                  class="input--style-1"
+                  type="text"
+                  placeholder="Email ID"
+                  name="emailid"
+                />
+              </div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="input-group">
+                    <input
+                      class="input--style-1 js-datepicker"
+                      type="text"
+                      placeholder="Date of your slot chosen"
+                      name="birthday"
+                    />
+                    <i
+                      class="zmdi zmdi-calendar-note input-icon js-btn-calendar"
+                    ></i>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="input-group">
+                    <div
+                      class="
+                        rs-select2
+                        js-select-simple
+                        select--no-search
+                        w-100
+                      "
+                    >
+                      <select name="gender" class="unstyled-select w">
+                        <option disabled="disabled" selected="selected">
+                          Gender
+                        </option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>
+                      </select>
+                      <div class="select-dropdown"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="input-group">
+                <div
+                  class="rs-select2 js-select-simple select--no-search w-100"
+                >
+                  <select name="class" class="unstyled-select">
+                    <option disabled="disabled" selected="selected">Day</option>
+                    <option>Monday</option>
+                    <option>Tuesday</option>
+                    <option>Wednesday</option>
+                    <option>Thursday</option>
+                    <option>Friday</option>
+                  </select>
+                  <div class="select-dropdown"></div>
+                </div>
+              </div>
+              <p>
+                Time of the session (You are required to call on the time you
+                have chosen for your slot and if somehow you are unable to, we
+                will call you back)
+              </p>
+              <br />
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                  <div class="input-group">
+                    <input
+                      class="input--style-1"
+                      type="text"
+                      placeholder="Your answer"
+                      name="name"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="input-group">
+                <div
+                  class="rs-select2 js-select-simple select--no-search w-100"
+                >
+                  <select name="class" class="unstyled-select">
+                    <option disabled="disabled" selected="selected">
+                      Mode of Communication
+                    </option>
+                    <option>
+                      Audio (Call @8872739998 at your chosen time)
+                    </option>
+                    <option>
+                      Video (WhatsApp Video Call @8872739998 at your chosen
+                      time)
+                    </option>
+                  </select>
+                  <div class="select-dropdown"></div>
+                </div>
+              </div>
+              <div class="p-t-20">
+                <button class="btn" type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js "
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN "
+      crossorigin="anonymous "
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js "
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV "
+      crossorigin="anonymous "
+    ></script>
+  </body>
+</html>

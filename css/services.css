@@ -1,0 +1,15 @@
+.services .col-lg-4 {
+  padding: 50px;
+}
+.services .card-title {
+  margin-bottom: 20px;
+}
+.w-90 .row {
+  margin: 0;
+  margin-bottom: 100px;
+}
+@media only screen and (max-width: 400px) {
+  .disp-none {
+    display: none;
+  }
+}

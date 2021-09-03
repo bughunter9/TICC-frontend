@@ -1,0 +1,73 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 680px;
+}
+.card {
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+}
+
+.card-1 {
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.card-1 .card-heading {
+  background: url("/images/thapar.jpg") center center/cover no-repeat;
+  padding-top: 210px;
+}
+
+.card-1 .card-body {
+  padding: 0 90px;
+  padding-top: 55px;
+  padding-bottom: 65px;
+}
+.unstyled-select {
+  background: transparent;
+  border: none;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.4);
+}
+.w {
+  padding: 10px 0;
+}
+@media (max-width: 767px) {
+  .card-1 .card-body {
+    padding: 0 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+.input-group {
+  position: relative;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #ccc;
+}
+.input--style-1 {
+  padding: 9px 0;
+  color: #666;
+  width: 100%;
+  border: none !important;
+  outline: none !important;
+}
+
+.btn {
+  line-height: 40px;
+  display: inline-block;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff !important;
+  font-size: 16px;
+  font-weight: 700;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #d20000;
+}
+.btn:hover {
+  background: #b10000;
+}
