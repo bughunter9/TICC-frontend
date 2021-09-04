@@ -36,6 +36,9 @@
   max-height: 350px;
   width: 400px !important;
 }
+.row{
+  margin: 0px !important;
+}
 @media only screen and (max-width: 1000px)
 {
   .coun-ind {
