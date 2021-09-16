@@ -1,0 +1,23 @@
+.handbookimg{
+    width: 70%;
+}
+.brochimg{
+    width: 70%;
+}
+.handbooks{
+    padding-left: 8%;
+}
+.brochures{
+    padding-left: 8%;
+}
+
+@media screen and (max-width:765px){
+    .handbooks,.brochures{
+        padding-left: 20%;
+    }
+}
+@media screen and (max-width:426px){
+    .handbooks,.brochures{
+        padding-left: 25%;
+    }
+}

@@ -35,6 +35,9 @@
 .services .card-title {
   margin-bottom: 20px;
 }
+.card-title{
+  font-family: 'Balsamiq Sans', cursive;
+}
 .about .heading {
   line-height: 100%;
   z-index: 1;
@@ -151,8 +154,8 @@ form button {
 #about-us {
   position: absolute;
   bottom: 0;
-  height: 65%;
-  width: 50vw;
+  height: 75%;
+  width: 60vw;
 }
 .row{
   margin: 0px !important;
