@@ -1,8 +1,8 @@
 .handbookimg{
-    width: 70%;
+    width: 80%;
 }
 .brochimg{
-    width: 70%;
+    width: 90%;
 }
 .handbooks{
     padding-left: 8%;
@@ -12,12 +12,30 @@
 }
 
 @media screen and (max-width:765px){
-    .handbooks,.brochures{
-        padding-left: 20%;
+    .handbooks{
+        margin-left: 70px !important;
+    }
+    .brochures{
+        margin-left: 64px !important;
+    }
+    .handbookimg{
+        width: 65%;
+    }
+    .brochimg{
+        width: 70%;
     }
 }
 @media screen and (max-width:426px){
-    .handbooks,.brochures{
-        padding-left: 25%;
+    .handbooks{
+        margin-left: 50px !important;
+    }
+    .brochures{
+        margin-left: 44px !important;
+    }
+    .handbookimg{
+        width: 65%;
+    }
+    .brochimg{
+        width: 70%;
     }
 }
