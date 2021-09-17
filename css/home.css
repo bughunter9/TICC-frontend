@@ -38,6 +38,9 @@
 .card-title{
   font-family: 'Balsamiq Sans', cursive;
 }
+.text-modified{
+  font-family: 'Balsamiq Sans', cursive;
+}
 .about .heading {
   line-height: 100%;
   z-index: 1;
