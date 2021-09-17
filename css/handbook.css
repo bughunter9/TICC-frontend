@@ -12,30 +12,7 @@
 }
 
 @media screen and (max-width:765px){
-    .handbooks{
-        margin-left: 70px !important;
-    }
-    .brochures{
-        margin-left: 64px !important;
-    }
-    .handbookimg{
-        width: 65%;
-    }
-    .brochimg{
-        width: 70%;
-    }
-}
-@media screen and (max-width:426px){
-    .handbooks{
-        margin-left: 50px !important;
-    }
-    .brochures{
-        margin-left: 44px !important;
-    }
-    .handbookimg{
-        width: 65%;
-    }
-    .brochimg{
-        width: 70%;
+    .handbooks,.brochures{
+        text-align: center !important;
     }
 }
