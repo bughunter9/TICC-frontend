@@ -45,6 +45,10 @@
     height: 330px !important;
     width: 250px !important;
   }
+}
+
+@media only screen and (max-width: 1270px)
+{
   .coun-son {
     height: 300px !important;
     width: 250px !important;
@@ -53,8 +57,22 @@
     height: 300px !important;
     width: 250px !important;
   }
+  .coun-son-text {
+    font-size: 30px !important;
+  }
+  .coun-gar-text {
+    font-size: 30px !important;
+  }
 }
-
+@media only screen and (max-width: 950px)
+{
+  .coun-son-text {
+    font-size: 20px !important;
+  }
+  .coun-gar-text {
+    font-size: 20px !important;
+  }
+}
 @media only screen and (max-width: 400px) {
   .disp-none {
     display: none;
