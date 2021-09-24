@@ -58,28 +58,28 @@
     width: 250px !important;
   }
   .coun-son-text {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
   .coun-gar-text {
-    font-size: 30px !important;
+    font-size: 35px !important;
   }
 }
 @media only screen and (max-width: 950px)
 {
   .coun-son-text {
-    font-size: 20px !important;
+    font-size: 30px !important;
   }
   .coun-gar-text {
-    font-size: 20px !important;
+    font-size: 30px !important;
   }
 }
 @media only screen and (max-width: 760px)
 {
   .coun-son-text {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
   .coun-gar-text {
-    font-size: 25px !important;
+    font-size: 30px !important;
   }
 }
 @media only screen and (max-width: 400px) {
