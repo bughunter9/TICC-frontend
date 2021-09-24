@@ -73,13 +73,13 @@
     font-size: 20px !important;
   }
 }
-@media only screen and (max-width: 440px)
+@media only screen and (max-width: 760px)
 {
   .coun-son-text {
-    font-size: 15px !important;
+    font-size: 25px !important;
   }
   .coun-gar-text {
-    font-size: 15px !important;
+    font-size: 25px !important;
   }
 }
 @media only screen and (max-width: 400px) {
