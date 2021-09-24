@@ -73,6 +73,15 @@
     font-size: 20px !important;
   }
 }
+@media only screen and (max-width: 440px)
+{
+  .coun-son-text {
+    font-size: 15px !important;
+  }
+  .coun-gar-text {
+    font-size: 15px !important;
+  }
+}
 @media only screen and (max-width: 400px) {
   .disp-none {
     display: none;
