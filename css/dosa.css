@@ -23,18 +23,21 @@
 .font-standard {
   font-family: "Open Sans", sans-serif !important;
 }
+.img-mod {
+  text-align: center !important;
+}
 
 .coun-ind {
   max-height: 350px;
-  width: 400px !important;
+  width: 300px !important;
 }
 .coun-son {
   max-height: 350px;
-  width: 400px !important;
+  width: 300px !important;
 }
 .coun-gar {
   max-height: 350px;
-  width: 400px !important;
+  width: 300px !important;
 }
 .row{
   margin: 0px !important;
