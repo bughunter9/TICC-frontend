@@ -238,6 +238,9 @@ header {
     width: 100% !important;
     background: transparent;
   }
+  .banner2{
+    padding-left: 50px !important;
+  }
   .navbar {
     padding: 0.5rem 0;
   }
