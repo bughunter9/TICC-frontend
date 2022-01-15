@@ -16,3 +16,11 @@
         text-align: center !important;
     }
 }
+
+
+@media screen and (max-width: 900px) and (min-width : 767px) {
+    .we_can_help_you {
+        font-size: 65px;
+        }
+}
+    

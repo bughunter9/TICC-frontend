@@ -230,3 +230,13 @@ form button {
     right: auto;
   }
 }
+@media screen and (max-width: 900px) and (min-width : 767px) {
+  .we_can_help_you {
+      font-size: 65px;
+  }
+}
+@media screen and (max-width: 1170px) {
+  .text-modified {
+      font-size: 50px;
+  }
+}

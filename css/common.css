@@ -234,7 +234,6 @@ header {
 }
 @media only screen and (max-width: 767px) {
   .banner {
-    padding-left: 20px;
     width: 100% !important;
     background: transparent;
   }
