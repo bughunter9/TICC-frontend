@@ -63,6 +63,24 @@
   .coun-gar-text {
     font-size: 35px !important;
   }
+  .coun-son-text1 {
+    font-size: 40px !important;
+  }
+  .coun-gar-text1 {
+    font-size: 40px !important;
+  }
+  .coun-ind-text{
+    font-size: 40px !important;
+  }
+  .coun-pra-text{
+    font-size: 40px !important;
+  }
+  .coun-ind-des{
+    font-size: 35px !important;
+  }
+  .coun-pra-des{
+    font-size: 35px !important;
+  }
 }
 @media only screen and (max-width: 950px)
 {
@@ -70,6 +88,12 @@
     font-size: 30px !important;
   }
   .coun-gar-text {
+    font-size: 30px !important;
+  }
+  .coun-ind-des{
+    font-size: 30px !important;
+  }
+  .coun-pra-des{
     font-size: 30px !important;
   }
 }
