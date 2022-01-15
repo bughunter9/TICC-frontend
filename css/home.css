@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:ital,wght@0,700;1,600&family=Rubik&display=swap');
 
 .hero-cta {
   position: absolute;
@@ -41,7 +41,10 @@
   font-family: 'Balsamiq Sans', cursive;
 }
 .text-modified{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+.text-modified1{
+  font-family: 'Rubik', sans-serif;
 }
 .about .heading {
   line-height: 100%;
