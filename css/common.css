@@ -353,3 +353,15 @@ footer.nb-footer .copyright p {
     opacity: 0;
   }
 }
+
+
+@media only screen and (max-width: 430px) {
+  .text-mod2 h1 {
+    font-size: 40px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .text-mod3 h1 {
+    font-size: 30px;
+  }
+}

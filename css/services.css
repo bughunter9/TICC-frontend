@@ -16,3 +16,16 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .text-mod1 h1 {
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .text-mod1 h1 {
+    font-size: 30px;
+  }
+}
+
