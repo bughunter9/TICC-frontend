@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,600&display=swap');
+
 .hero-cta {
   position: absolute;
   top: 70%;
@@ -39,7 +41,7 @@
   font-family: 'Balsamiq Sans', cursive;
 }
 .text-modified{
-  font-family: 'Balsamiq Sans', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 .about .heading {
   line-height: 100%;
