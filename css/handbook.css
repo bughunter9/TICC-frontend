@@ -1,8 +1,10 @@
 .handbookimg{
     width: 80%;
+    border-radius: 50px;
 }
 .brochimg{
     width: 90%;
+    border-radius: 30px;
 }
 .handbooks{
     padding-left: 8%;

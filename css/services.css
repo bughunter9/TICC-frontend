@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:ital,wght@0,700;1,600&family=Rubik&display=swap');
+
 .services .col-lg-4 {
   padding: 50px;
 }
@@ -29,3 +31,6 @@
   }
 }
 
+.text-modified1{
+  font-family: 'Rubik', sans-serif;
+}
