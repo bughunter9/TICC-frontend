@@ -99,11 +99,32 @@
 }
 @media only screen and (max-width: 760px)
 {
+  .coun-son-text1,.coun-gar-text1,.coun-ind-text,.coun-pra-text{
+    font-size: 34px !important;
+  }
   .coun-son-text {
-    font-size: 30px !important;
+    font-size: 25px !important;
   }
   .coun-gar-text {
+    font-size: 25px !important;
+  }
+}
+@media only screen and (max-width: 380px)
+{
+  .coun-son-text1,.coun-gar-text1,.coun-ind-text,.coun-pra-text{
     font-size: 30px !important;
+  }
+  .coun-son-text {
+    font-size: 20px !important;
+  }
+  .coun-gar-text {
+    font-size: 20px !important;
+  }
+  .coun-ind-des{
+    font-size: 25px !important;
+  }
+  .coun-pra-des{
+    font-size: 25px !important;
   }
 }
 @media only screen and (max-width: 400px) {
