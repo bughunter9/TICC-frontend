@@ -69,11 +69,6 @@ header {
 .f-120 {
   font-size: 120px;
 }
-@media only screen and (max-width: 767px) {
-  .f-120 {
-    font-size: 90px;
-  }
-}
 .f-80 {
   font-size: 80px;
 }
@@ -239,7 +234,8 @@ header {
     background: transparent;
   }
   .banner2{
-    padding-left: 50px !important;
+    align-items: center !important;
+    text-align: center !important;
   }
   .navbar {
     padding: 0.5rem 0;
@@ -257,10 +253,10 @@ header {
     margin-bottom: 10px;
   }
   .f-80 {
-    font-size: 40px;
+    font-size: 40px !important;
   }
   .f-120 {
-    font-size: 50px;
+    font-size: 50px !important;
   }
 }
 /* navbar */
@@ -368,4 +364,30 @@ footer.nb-footer .copyright p {
   .text-mod3 h1 {
     font-size: 30px;
   }
+}
+@media only screen and (max-width: 820px) {
+  .text-mod-aboutus h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 830px) {
+  .text-mod-team h1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .text-mod-contact h1 {
+    font-size: 60px;
+  }
+}
+
+
+.img-mod1{
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.img-mod2{
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
