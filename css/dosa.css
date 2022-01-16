@@ -42,7 +42,10 @@
 .row{
   margin: 0px !important;
 }
-
+.div-mod1{
+  border: 4px solid black;
+  border-radius: 10px;
+}
 @media only screen and (max-width: 1270px)
 {
   .coun-ind {
