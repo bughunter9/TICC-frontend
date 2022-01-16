@@ -42,9 +42,9 @@
 .row{
   margin: 0px !important;
 }
-.coun-pra-des,.coun-ind-des{
+/* .coun-pra-des,.coun-ind-des{
   text-align: center !important;
-}
+} */
 @media only screen and (max-width: 1270px)
 {
   .coun-ind {
