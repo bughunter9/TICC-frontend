@@ -228,6 +228,10 @@ header {
   }
 }
 @media only screen and (max-width: 767px) {
+  .img-mod3{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+  }
   .banner {
     padding-left: 30px;
     width: 100% !important;
