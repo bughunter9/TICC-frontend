@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:ital,wght@0,700;1,600&family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:ital,wght@0,700;1,600&family=Rubik&display=swap");
 
 .services .col-lg-4 {
   padding: 50px;
@@ -6,13 +6,14 @@
 .services .card-title {
   margin-bottom: 20px;
 }
-.card-title{
-  font-family: 'Balsamiq Sans', cursive;
+.card-title {
+  font-family: "Balsamiq Sans", cursive;
 }
 .w-90 .row {
   margin: 0;
   margin-bottom: 100px;
 }
+
 @media only screen and (max-width: 400px) {
   .disp-none {
     display: none;
@@ -31,6 +32,6 @@
   }
 }
 
-.text-modified1{
-  font-family: 'Rubik', sans-serif;
+.text-modified1 {
+  font-family: "Rubik", sans-serif;
 }
